@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7708d249-fda5-44b1-a732-921931021caf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C2ImportFamRelSample.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyTestReader.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestReader.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s3Csv.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASCII_Convertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Anagram_finding_in_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Arrays_asList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Balanced_Parentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BinarySearchExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BinaryToDecimalConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Binary_Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BufferReader_Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Case_Specific_Sorting_Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ClimbingWallProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Climbing_the_Leaderboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ContainsEveryLetterOfEnglishAlphabet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CurlRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Decode_the_Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Delete_MinMaxLength_StringFrom_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Driver_Capabilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DupChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EncapsulationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EnumExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExtractDigitFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExtractListOfList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Extract_Numberic_String_FromList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FibonacciNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FileReading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ImmutableStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/InterfaceExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Intr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java7MultipleExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java8_Examples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JsonParseTry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Minimum_changes_to_make_all_substrings_distinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Overridingloding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Staer3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Patterns/Star9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Properties_Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssuredTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssured_POJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ReverseOnlyAlphabetsFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SingletonClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SingletonClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SortBy_char_count_in_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StackProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StackProblem2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StaticBlock_Without_Main_Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StaticModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StringJoinerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCustomizedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Third_LargestNum_In_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TreeSet_Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UnzipFiles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UnzipFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UserInputRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/abstration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/aws.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/awsS3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chocolate_Wrapper_Feast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/csvCombiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dynamoDbDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mountain_valley_problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/renameFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sol2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/TestReader-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ASCII_Convertions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Anagram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Anagram_finding_in_String.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Arrays_asList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Baap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Balanced_Parentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/BinarySearchExamples.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/BinaryToDecimalConversion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Binary_Search.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/BufferReader_Example.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/CSVReaderWriteUtility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/CSVReaderWriteUtilityMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Case_Specific_Sorting_Strings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ClimbingWallProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Climbing_the_Leaderboard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ComparatorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ContainsEveryLetterOfEnglishAlphabet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/CurlRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/CustomException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Decode_the_Pattern.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Delete_MinMaxLength_StringFrom_List.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Driver_Capabilities.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/DupChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/EncapsulationExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/EnumExample$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/EnumExample$Days.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/EnumExample$MyConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/EnumExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ExtractDigitFromString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ExtractListOfList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Extract_Numberic_String_FromList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/FibonacciNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/FileReading.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/FizzBuzz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ForEach.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ImmutableStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ImplementedClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/InterfaceExamples.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Intr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Java7MultipleExceptions$FirstException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Java7MultipleExceptions$SecondException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Java7MultipleExceptions$ThirdException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Java7MultipleExceptions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Java8_Examples.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/JsonParseTry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/LambdaExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Minimum_changes_to_make_all_substrings_distinct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/MyBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/MyComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/MyCustException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/MyStringComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Overridingloding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Staer3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star17.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star18.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star19.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star20.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Patterns/Star9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Properties_Example.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/RestAssuredTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/RestAssured_POJO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ReverseOnlyAlphabetsFromString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/SingletonClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/SingletonClass2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/SortBy_char_count_in_String.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/StackProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/StackProblem2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/StaticBlock_Without_Main_Method.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/StaticModifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/StringJoinerExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Test$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Test$Inner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestCustomizedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Third_LargestNum_In_List.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TreeSet_Example.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/UnzipFiles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/UserInputRead.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/a.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/abstration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/aws.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/awsS3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/b.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/chocolate_Wrapper_Feast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/csvCombiner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/dupTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/dynamoDbDelete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ei1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/i1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/i2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/mountain_valley_problem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/myCustomrException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/myLambda.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ok.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/renameFiles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/sol2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/stepFunctions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/temp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/test11.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1bCUqoqB73rB1m38FmXWd0UIqTp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rest-assured-workshop-master" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mlodhi\Desktop\IFM\e2e projects\TestReader\src\test\java" />
+      <recent name="C:\Users\mlodhi\Desktop\IFM\e2e projects\TestReader\src\test" />
+      <recent name="C:\Users\mlodhi\Desktop\IFM\e2e projects\TestReader" />
+      <recent name="C:\Users\mlodhi\Desktop\IFM\e2e projects\TestReader\src\test\resources\features" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mlodhi\Desktop\IFM\e2e projects\TestReader\src\test" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn cleann install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.RestAssuredTest">
+    <configuration name="Intr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Intr" />
+      <module name="TestReader" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssuredTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RestAssuredTest" />
+      <module name="TestReader" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssured_POJO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RestAssured_POJO" />
+      <module name="TestReader" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonClass" />
+      <module name="TestReader" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonClass2" />
+      <module name="TestReader" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="TestReader" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <module name="TestReader" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com in TestReader" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="TestReader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SingletonClass" />
+      <item itemvalue="Application.SingletonClass2" />
+      <item itemvalue="Application.Intr" />
+      <item itemvalue="Application.RestAssured_POJO" />
+      <item itemvalue="Application.RestAssuredTest" />
+      <item itemvalue="JUnit.com in TestReader" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RestAssuredTest" />
+        <item itemvalue="Application.Intr" />
+        <item itemvalue="Application.RestAssured_POJO" />
+        <item itemvalue="Application.SingletonClass2" />
+        <item itemvalue="Application.SingletonClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7708d249-fda5-44b1-a732-921931021caf" name="Default Changelist" comment="" />
+      <created>1588135762107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588135762107</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="305" y="0" width="849" height="680" key="#&lt;template&gt;_of_Application" timestamp="1602081719690">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="305" y="0" width="849" height="680" key="#&lt;template&gt;_of_Application/0.0.1280.680@0.0.1280.680" timestamp="1602081719690" />
+    <state x="133" y="0" key="#Project_Structure" timestamp="1606378494279">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="133" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1606378494279" />
+    <state x="280" y="0" width="739" height="680" key="#Staer3" timestamp="1602080897660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="280" y="0" width="739" height="680" key="#Staer3/0.0.1280.680@0.0.1280.680" timestamp="1602080897660" />
+    <state x="280" y="0" width="739" height="680" key="#Star1" timestamp="1602080594488">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="280" y="0" width="739" height="680" key="#Star1/0.0.1280.680@0.0.1280.680" timestamp="1602080594488" />
+    <state x="280" y="0" width="739" height="680" key="#Star2" timestamp="1602080781480">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="280" y="0" width="739" height="680" key="#Star2/0.0.1280.680@0.0.1280.680" timestamp="1602080781480" />
+    <state x="280" y="0" width="739" height="680" key="#Star4" timestamp="1602081059965">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="280" y="0" width="739" height="680" key="#Star4/0.0.1280.680@0.0.1280.680" timestamp="1602081059965" />
+    <state x="280" y="0" width="739" height="680" key="#Star5" timestamp="1602081140074">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="280" y="0" width="739" height="680" key="#Star5/0.0.1280.680@0.0.1280.680" timestamp="1602081140074" />
+    <state x="280" y="0" width="739" height="680" key="#Star6" timestamp="1602081308071">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="280" y="0" width="739" height="680" key="#Star6/0.0.1280.680@0.0.1280.680" timestamp="1602081308071" />
+    <state x="280" y="0" width="739" height="680" key="#Star7" timestamp="1602081464783">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="280" y="0" width="739" height="680" key="#Star7/0.0.1280.680@0.0.1280.680" timestamp="1602081464783" />
+    <state x="402" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1606736740627">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="402" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1606736740627" />
+    <state x="415" y="38" key="FileChooserDialogImpl" timestamp="1607757367327">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="415" y="38" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607757367327" />
+    <state width="1225" height="246" key="GridCell.Tab.0.bottom" timestamp="1607332134641">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1225" height="246" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607332134641" />
+    <state width="1225" height="246" key="GridCell.Tab.0.center" timestamp="1607332134641">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1225" height="246" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607332134641" />
+    <state width="1225" height="246" key="GridCell.Tab.0.left" timestamp="1607332134641">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1225" height="246" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607332134641" />
+    <state width="1225" height="246" key="GridCell.Tab.0.right" timestamp="1607332134641">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1225" height="246" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607332134641" />
+    <state width="1225" height="202" key="GridCell.Tab.1.bottom" timestamp="1602080601932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1225" height="202" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602080601932" />
+    <state width="1225" height="202" key="GridCell.Tab.1.center" timestamp="1602080601932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1225" height="202" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1602080601932" />
+    <state width="1225" height="202" key="GridCell.Tab.1.left" timestamp="1602080601932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1225" height="202" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1602080601932" />
+    <state width="1225" height="202" key="GridCell.Tab.1.right" timestamp="1602080601932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1225" height="202" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1602080601932" />
+    <state x="59" y="0" key="Maven.ArtifactSearchDialog" timestamp="1606378481515">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="59" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1606378481515" />
+    <state x="19" y="0" key="SettingsEditor" timestamp="1606374874844">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="19" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1606374874844" />
+    <state x="291" y="212" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606374934412">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="291" y="212" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1606374934412" />
+    <state x="310" y="0" width="793" height="680" key="find.popup" timestamp="1607613432721">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="310" y="0" width="793" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1607613432721" />
+    <state x="213" y="147" width="840" height="1034" key="run.anything.popup" timestamp="1606378212020">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="213" y="147" width="840" height="1034" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1606378212020" />
+  </component>
+</project>

@@ -1,0 +1,23 @@
+1.1 Contract Test - Verify that XSight Register API is up and running - , not run
+1.2 Contract Test - Verify that XSight Unprocessed API is up and running - , not run
+1.3 Contract Test - Verify that XSight Processed API is up and running - , not run
+1.4 Contract Test - Verify that XSight Rootlocation API is up and running - , not run
+2.1 Register - Clean up status table before process execution starts - , not run
+2.2 Register - Validate AW2SamDataTypeMaster table is loaded - , not run
+2.3 Register - Invoke AW 2.0 SAM Register service - , Success
+2.4 Register - Validate Registration in AW SAM - , not run
+4.1 DataIngestion - Disable cloudwatch rule for poll© service - , not run
+3.1 XDT upload - Upload data from OnPrem to cloud - Not Implemented
+3.2 XDT upload - Verify XDT uploaded data to XSight external bucket - , No Result
+3.3 XDT upload - Wait for XSight unzipping process - Not Implemented
+4.2 DataIngestion - Start poll© service - , not run
+4.3 DataIngestion - Wait till poll© service completes - , not run
+4.4 DataIngestion - Validate logs for poll© service - , not run
+4.5 DataIngestion - Verify files are copied at staging location - , failed
+5.1 Merging - Verify files MERGED and Input files moved to archive location - , not run
+6.0 Flattening - Wait till Flattening service service completes - , not run
+6.1 Flattening - Verify latest snapshot present in flattening output directory for Account Profile - , not run
+6.2 Flattening - Verify latest snapshot present in flattening output directory for Account Static - , not run
+6.3 Flattening - Verify latest snapshot present in flattening output directory for PartyGrp Profile - , not run
+6.4 Flattening - Verify latest snapshot present in flattening output directory for PartyGrp Static - , not run
+7.1 Reporting - Start Reporting service - , failed
