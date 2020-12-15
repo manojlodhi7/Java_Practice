@@ -1,5 +1,9 @@
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import org.junit.Assert;
 
 import java.io.IOException;
 
@@ -73,6 +77,28 @@ public class RestAssured_POJO {
         System.out.println("Gender of employee : "+employee2.getGender());
         System.out.println("Salary of employee : "+employee2.getSalary());
         System.out.println("Marital status of employee : "+employee2.getMarried());
+    }
+
+    public void getPojoFromEmployeeObject2() throws IOException {
+        Employee employee = new Employee();
+        employee.setFirstName("Amod");
+        employee.setLastName("Mahajan");
+        employee.setAge(29);
+        employee.setGender("Male");
+        employee.setSalary(3434343);
+        employee.setMarried(false);
+
+        RestAssured.baseURI = "https://reqres.in/api/users?page=2";
+        Response res = RestAssured
+                .given()
+                .log().all()
+                .body(employee) // pass employee object - serialization
+                .get();
+
+        res.as(Employee.class); // Store in Pojo object - deserialization
+
+        Assert.assertTrue(employee.getMarried());
+
     }
 
     public static void main(String[] args) throws IOException {

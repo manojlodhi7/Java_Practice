@@ -1,15 +1,60 @@
 //import com.jayway.jsonpath.JsonPath;
 import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
+import io.restassured.internal.RequestSpecificationImpl;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
 import javafx.application.Application;
+import org.apache.http.client.methods.RequestBuilder;
 import org.json.simple.JSONObject;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
 import java.util.List;
 import java.util.Map;
 
+
+
 public class RestAssuredTest {
+
+    static RequestSpecification requestSpecification;
+    static ResponseSpecification responseSpecification;
+
+    @BeforeClass
+    public static void createRequestSpec(){
+        requestSpecification = new RequestSpecBuilder().setBaseUri("base uri")
+                .setPort(8080)
+                .setContentType(ContentType.JSON)
+                .build();
+    }
+
+    @BeforeClass
+    public static void createResponseSpec(){
+        responseSpecification = new ResponseSpecBuilder()
+                .expectContentType(ContentType.JSON)
+                .expectStatusCode(200)
+                .build();
+    }
+
+    @Test
+    public void userRequest(){
+        Response response = RestAssured
+                .given()
+//                .port(8080)
+                .spec(requestSpecification) // Set default/predefined request specifications
+                .queryParam("param1", "value1")
+                .pathParam("pathParam01", "pathValue01")
+                .when()
+                .get("/{pathParam01}");
+
+        response.then().spec(responseSpecification); // Validate default/predefined response specifications
+    }
+
 
     public static void get(){
         RestAssured.baseURI = "https://reqres.in/api/users?page=2";
@@ -21,6 +66,11 @@ public class RestAssuredTest {
                 .log().all()
                 .assertThat().statusCode(200).and().contentType(ContentType.JSON);
 //        res.then().body("total", equalTo(12));
+        System.out.println("Extract Practice");
+        int total_pages001 = res.then().extract().path("total_pages");
+        System.out.println("Extract Practice total_pages-->" + total_pages001);
+        System.out.println("Extract Practice first_name-->" + res.then().extract().path("data[0].first_name"));
+
         System.out.println(res.jsonPath().prettify());
         JsonPath jsonPathEvaluator = res.jsonPath();
         String total_pages = jsonPathEvaluator.getString("total_pages");
@@ -110,6 +160,7 @@ public class RestAssuredTest {
     }
 
     public static void basicDigestAuth(){
+
         RestAssured.given()
                 .auth()
                 .digest("userName", "passWord")

@@ -18,17 +18,21 @@ public class test11 {
     /*public static void main(String[] args) {
 
         String word = "zzzooooooo";
-        int count_z = 0;
-        int count_o = 0;
-        String[] wArray = word.split("");
-        for(String s : wArray) {
-            if(s.equalsIgnoreCase("z")) {
-                count_z++;
-            }
-            else if(s.equalsIgnoreCase("o")) {
-                count_o++;
-            }
-        }
+//        int count_z = 0;
+//        int count_o = 0;
+//        String[] wArray = word.split("");
+//        for(String s : wArray) {
+//            if(s.equalsIgnoreCase("z")) {
+//                count_z++;
+//            }
+//            else if(s.equalsIgnoreCase("o")) {
+//                count_o++;
+//            }
+//        }
+
+        String word_z = word.replace("o", "");
+		int count_z = word_z.length();
+		int count_o = word.length()-count_z;
 
         if(2*count_z == count_o) {
             System.out.println("Yes");

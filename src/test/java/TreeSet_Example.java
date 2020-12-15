@@ -10,7 +10,10 @@ public class TreeSet_Example {
 //        ts.add("bc");
         ts.add(1);
         ts.add(0);
+        ts.add(5);
+        ts.add(2);
 
+        System.out.println(ts);
         ts.forEach(System.out::println);
 
 

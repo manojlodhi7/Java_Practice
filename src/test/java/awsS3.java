@@ -28,7 +28,7 @@ public class awsS3 {
                 S3Object s3object = s3Client.getObject(bucketName, filePath);
                 S3ObjectInputStream inputStream = s3object.getObjectContent();
                 FileUtils.copyInputStreamToFile(inputStream, new File(currentDirectory + fileNames[fileNames.length-1]));
-                CSVReaderWriteUtilityMain.callCSVChangeData("ADL", currentDirectory + fileNames[fileNames.length-1], "2019");
+//                CSVReaderWriteUtilityMain.callCSVChangeData("ADL", currentDirectory + fileNames[fileNames.length-1], "2019");
 //                s3Client.putObject(
 //                        bucketName,
 //                        "962400859/6894_F_24M23/AW_IFM/IFMStaging/E2E/s3Csv.csv",
