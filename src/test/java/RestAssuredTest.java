@@ -6,8 +6,10 @@ import io.restassured.http.ContentType;
 import io.restassured.internal.RequestSpecificationImpl;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import io.restassured.specification.QueryableRequestSpecification;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
+import io.restassured.specification.SpecificationQuerier;
 import javafx.application.Application;
 import org.apache.http.client.methods.RequestBuilder;
 import org.json.simple.JSONObject;
@@ -26,11 +28,45 @@ public class RestAssuredTest {
     static ResponseSpecification responseSpecification;
 
     @BeforeClass
-    public static void createRequestSpec(){
+    public static void createRequestSpec01(){
+        requestSpecification = RestAssured
+                .given()
+                .port(8090) // Default value is 8080
+                .baseUri("https://ifm.test.aw.actimize-afcm.cloud/ensService/ens/adhocrun")
+                .basePath("/11ea2d67-7385-c750-9a4d-0242ac110002")
+                .basePath("/Tuning_log")
+                .contentType(ContentType.JSON);
+
+//        Setting default requestSpecification if user does not specify while calling api
+        RestAssured.requestSpecification = requestSpecification;
+
+        // Querying RequestSpecification
+        // Use query() method of SpecificationQuerier class to query
+        QueryableRequestSpecification queryRequest = SpecificationQuerier.query(requestSpecification);
+        String retrieveURI = queryRequest.getBaseUri();
+        int retrievePORT = queryRequest.getPort();
+        String retrieveBasePath = queryRequest.getBasePath();
+        System.out.println("Base URI is : "+retrieveURI + " PORT is : " + retrievePORT +
+                " and base path is : " + retrieveBasePath);
+    }
+
+    @BeforeClass
+    public static void createRequestSpec02(){
         requestSpecification = new RequestSpecBuilder().setBaseUri("base uri")
                 .setPort(8080)
                 .setContentType(ContentType.JSON)
                 .build();
+    }
+
+    @BeforeClass
+    public static void createRequestSpec03(){
+        requestSpecification = RestAssured
+                .with()
+                .port(8080)
+                .baseUri("https://ifm.test.aw.actimize-afcm.cloud/ensService/ens/adhocrun")
+                .basePath("/11ea2d67-7385-c750-9a4d-0242ac110002")
+                .basePath("/Tuning_log")
+                .contentType(ContentType.JSON);
     }
 
     @BeforeClass
@@ -41,18 +77,37 @@ public class RestAssuredTest {
                 .build();
     }
 
+
     @Test
     public void userRequest(){
         Response response = RestAssured
                 .given()
-//                .port(8080)
                 .spec(requestSpecification) // Set default/predefined request specifications
                 .queryParam("param1", "value1")
-                .pathParam("pathParam01", "pathValue01")
+                .pathParam("pathParam01", "pathValue01")// formParams
                 .when()
                 .get("/{pathParam01}");
 
-        response.then().spec(responseSpecification); // Validate default/predefined response specifications
+//        OR
+
+        /*
+        Response response = RestAssured
+                .given(requestSpecification)
+                .queryParam("param1", "value1")
+                .pathParam("pathParam01", "pathValue01")// formParams
+                .when()
+                .get("/{pathParam01}");
+        * */
+//        OR
+        /*
+        Response response = requestSpecification
+                .queryParam("param1", "value1")
+                .pathParam("pathParam01", "pathValue01")// formParams
+                .when()
+                .get("/{pathParam01}");
+                */
+
+                response.then().spec(responseSpecification); // Validate default/predefined response specifications
     }
 
 

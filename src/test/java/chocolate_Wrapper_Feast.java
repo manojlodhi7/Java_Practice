@@ -1,8 +1,8 @@
 public class chocolate_Wrapper_Feast {
     public static int chocolateFeast(int money, int cost, int free){
-//        total money = 15
+//        total money = 15 rs
 //        cost per choc = 1 rs
-//        3 wrapper = 1 choc
+//        3 wrapper = 1 choc // o/p 22 choc
         int chocolates = money / cost;
         if (chocolates >= free){
             int wrappers = chocolates;
@@ -37,7 +37,7 @@ public class chocolate_Wrapper_Feast {
     }
     public static void main(String[] args) {
 
-        System.out.println(chocolateFeast(8,1,3));
+        System.out.println(chocolateFeast(15,1,3));
 
     }
 }

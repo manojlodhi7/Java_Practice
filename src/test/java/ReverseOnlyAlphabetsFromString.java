@@ -23,7 +23,7 @@ public class ReverseOnlyAlphabetsFromString {
 
     public static void main(String[] s2) {
 
-        reverse("sf#@rq&*j45pk87d");
+        reverse("sf#@rq&*j45pk87d"); // Output : dk#@pj&*q45rf87s
 
     }
 }
