@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.HashMap;
 import java.util.NoSuchElementException;
@@ -33,5 +34,7 @@ public class Driver_Capabilities {
         driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
 
         WebElement element = driver.findElement(By.id(""));
+
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 3);
     }
 }

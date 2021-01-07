@@ -1,47 +1,43 @@
 class Baap{
-
     String a = "Parent";
     public static void m1(){
-        System.out.println("public static Parent m1");
+        System.out.println("method hiding public static Parent m1");
     }
     public void m2(){
-        System.out.println("public parent m2");
+        System.out.println("overridden public parent m2");
     }
     private void m3(){
         System.out.println("private parent m3");
     }
     public void m4(){
-        System.out.println("public parent m4 without arguments");
+        System.out.println("not overridden public parent m4 without arguments");
     }
     public void m5(){
-        System.out.println("public parent m5 without arguments");
+        System.out.println("not overridden public parent m5 without arguments");
     }
     public void m5(int i){
-        System.out.println("public parent m5 wit arguments " + i);
+        System.out.println("public parent m5 with arguments " + i);
     }
-
 }
-
 public class Overridingloding extends Baap {
     String a = "Child";
-
     public static void m1(){
-        System.out.println("public static Child m1");
+        System.out.println("method hiding public static Child m1");
     }
     public void m2(){
-        System.out.println("public Child m2");
+        System.out.println("overridden public Child m2");
     }
     private void m3(){
         System.out.println("private Child m3");
     }
     public void m4(int i){
-        System.out.println("public Child m4 with arguments " + i);
+        System.out.println("over loaded public Child m4 with arguments " + i);
     }
     public void m5(int i){
-        System.out.println("public Child m5 with arguments " + i);
+        System.out.println("overridden public Child m5 with arguments " + i);
     }
     public void m5(int i, int j){
-        System.out.println("public Child m5 with arguments " + i + " " + j);
+        System.out.println("over loaded public Child m5 with arguments " + i + " " + j);
     }
 
     public static void main(String[] arg){
@@ -64,6 +60,7 @@ public class Overridingloding extends Baap {
         bporl.m4();
         bporl.m5();
         bporl.m5(4);
+//        bporl.m5(4, 7); // create method in Parent class
         ((Overridingloding) bporl).m5(2, 5); // casting
         ((Overridingloding) bporl).m4(55); // casting
         System.out.println("***********Overridingloding orl = new Overridingloding();*****************************************");

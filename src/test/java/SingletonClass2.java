@@ -1,19 +1,22 @@
-public class SingletonClass2 {
+class SingletonExample{
 
-    private static SingletonClass2 singletonClass2 = null;
-    private SingletonClass2(){}
+    private static SingletonExample singletonExample = null;
+    private SingletonExample(){
 
-    public static SingletonClass2 getSingletonClass2(){
-        if(singletonClass2 == null){
-            singletonClass2 = new SingletonClass2();
-        }
-        return singletonClass2;
     }
 
+    public static SingletonExample getSingletonClass2(){
+        if(singletonExample == null){
+            singletonExample = new SingletonExample();
+        }
+        return singletonExample;
+    }
+}
 
+public class SingletonClass2 {
     public static void main(String[] arg){
-        SingletonClass2 sc = SingletonClass2.getSingletonClass2();
-        SingletonClass2 sc2 = SingletonClass2.getSingletonClass2();
+        SingletonExample sc = SingletonExample.getSingletonClass2();
+        SingletonExample sc2 = SingletonExample.getSingletonClass2();
 
         System.out.println(sc.getClass() + " : " + sc2.getClass());
         System.out.println(sc == sc2);

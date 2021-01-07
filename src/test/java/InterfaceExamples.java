@@ -1,5 +1,6 @@
 
 interface i1{
+    public static final int k = 9;
     static void m1(){
         System.out.println("i1 Static Method");
     }
@@ -8,6 +9,7 @@ interface i1{
     }
     void m3();
     void m4();
+//    int m6();
 }
 interface i2{
     static void m1(){
@@ -18,6 +20,7 @@ interface i2{
     }
     void m4();
     void m5();
+//    void m6();
 }
 
 
@@ -43,8 +46,7 @@ public class InterfaceExamples implements i1, i2{
 
     }
 
-    public void m6() {
-
+    public void m7() {
     }
 
 
@@ -53,6 +55,7 @@ public class InterfaceExamples implements i1, i2{
 //        i1 obj = new InterfaceExamples();
         i2 obj = new InterfaceExamples();
         i1.m1();
+        System.out.println(i1.k);
         i2.m1();
         obj.m2();
     }
