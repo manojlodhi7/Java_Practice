@@ -247,6 +247,15 @@ public class RestAssuredTest {
                 .post();
         String token = resp1.jsonPath().get("access_token");
 
+//        OR
+        /*
+        String token = RestAssured.given().auth()
+                .basic("userName", "Password")
+                .when().post()
+                .then().extract().path("access_token");
+                */
+
+
 
         JSONObject body = new JSONObject();
         body.put("Name", "Lodhi");

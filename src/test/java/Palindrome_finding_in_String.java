@@ -2,9 +2,9 @@ import java.lang.reflect.Array;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Anagram_finding_in_String {
+public class Palindrome_finding_in_String {
 
-    public static String findAnagram_withStringBuffer(String str){
+    public static String findPalindrome_withStringBuffer(String str){
 //        o/p = racecar
         for(int i =0; i<str.length(); i++){
             String s = str.substring(i);
@@ -17,7 +17,7 @@ public class Anagram_finding_in_String {
         return "Not Found";
     }
 
-    public static void findAnagram_withStringBuffer_ReverseIncluded(String str){
+    public static void findPalindrome_withStringBuffer_ReverseIncluded(String str){
 //        o/p = racecar, aceca, cec
         for(int i = 0; i<str.length(); i++){
             for(int j = str.length(); j>i+1; j--){
@@ -32,7 +32,7 @@ public class Anagram_finding_in_String {
         }
     }
 
-    public static String findAnagram_withoutStringBuffer(String str){
+    public static String findPalindrome_withoutStringBuffer(String str){
 
         for(int i =0; i<str.length(); i++){
             String s = str.substring(i);
@@ -51,7 +51,7 @@ public class Anagram_finding_in_String {
     public static void main(String[] args) {
         String str = "theracecar";
 
-        System.out.println(findAnagram_withoutStringBuffer(str));
+        System.out.println(findPalindrome_withoutStringBuffer(str));
 
     }
 }

@@ -3,6 +3,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import org.hamcrest.Matchers;
 import org.junit.Assert;
 
 import java.io.IOException;
@@ -99,6 +100,10 @@ public class RestAssured_POJO {
 
         Assert.assertTrue(employee.getMarried());
 
+        Employee eobj = res.as(Employee.class);
+        eobj.getAge();
+
+        Assert.assertThat(eobj, Matchers.equalToObject(employee));
     }
 
     public static void main(String[] args) throws IOException {
