@@ -1,0 +1,110 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;
+import java.util.stream.Collectors;
+import java.io.InputStreamReader;
+import java.io.BufferedReader;
+
+class sortById implements Comparator<Employee> {
+    @Override
+    public int compare(Employee e1, Employee e2) {
+        if(Integer.valueOf(e1.getEmp_id()).compareTo(Integer.valueOf(e2.getEmp_id())) == 0) {
+            return 1;
+        } else {
+            return Integer.valueOf(e1.getEmp_id()).compareTo(Integer.valueOf(e2.getEmp_id()));
+        }
+        
+    }
+}
+
+class Employee {
+  int emp_id;
+  int emp_salary;
+  String emp_name;
+  String department;
+  int emp_age;
+
+  Employee(int emp_id, String emp_name, int emp_age, String department, int emp_salary) {
+      this.emp_id = emp_id;
+      this.emp_name = emp_name;
+      this.emp_age = emp_age;
+      this.department = department;
+      this.emp_salary = emp_salary;
+  }
+  public void setEmp_id(int emp_id) {
+      this.emp_id = emp_id;
+  }
+  public int getEmp_id() {
+      return emp_id;
+  }
+   public void setEmp_salary(int emp_salary) {
+      this.emp_salary = emp_salary;
+  }
+  public int getEmp_salary() {
+      return emp_salary;
+  }
+  public void setEmp_age(int emp_age) {
+      this.emp_age = emp_age;
+  }
+  public int getEmp_age() {
+      return emp_age;
+  }
+  public void setEmp_name(String emp_name) {
+      this.emp_name = emp_name;
+  }
+  public String getEmp_name() {
+      return emp_name;
+  }
+   public void setDepartment(String department) {
+      this.department = department;
+  }
+  public String getDepartment() {
+      return department;
+  }
+  
+  @Override  
+public String toString() {  
+    return "[emp_id = " + emp_id + ", salary = " + emp_salary + ", name = " + emp_name +   
+            ", department = " + department + ", age = " + emp_age + "]\n";  
+    } 
+  
+}
+
+public class EmployeeSortingJava8 {
+   
+
+    public static void main(String[] s2) {
+    
+       
+        TreeSet<Employee> employees = new TreeSet<>(new sortById());
+        employees.add(new Employee(101, "Savas Akhtan", 32,  "IT",22340));
+        employees.add(new Employee(102, "Javas Bkhtan", 30, "Suppport", 22340));
+        employees.add(new Employee(103, "Savas Gkhtan", 32, "HR", 21340));
+        employees.add(new Employee(104, "Aavas Akhtan", 28, "RM", 23340));
+        employees.add(new Employee(105, "Cavas Dkhtan", 29, "IT", 23340));
+        employees.add(new Employee(106, "Havas Ckhtan", 32, "IT", 22340));
+        employees.add(new Employee(107, "Eavas Fkhtan", 30, "Suppport", 22340));
+        
+        
+        // System.out.println(employees);
+        // employees.entrySet().stream().filter(b -> b.getValue().getEmp_age()>30).forEach(d -> System.out.println(d.getValue()));
+        
+        // employees.stream().forEach(d -> dSortedEmp.add(d.getValue()));
+        // System.out.println(employees);
+        
+        // List<Employee> empSortByDepts =  employees.stream().sorted((a, b) -> a.getDepartment().compareTo(b.getDepartment())).collect(Collectors.toList());
+        // System.out.println(empByDepts);
+        
+        // List<Employee> empSortByLastName =  employees.stream().sorted((a, b) -> a.getEmp_name().compareTo(b.getEmp_name())).collect(Collectors.toList());
+        // System.out.println(empSortByLastName);
+        
+        // List<Employee> empSortByFirstName =  employees.stream().sorted((a, b) -> a.getEmp_name().split(" ")[1].compareTo(b.getEmp_name().split(" ")[1])).collect(Collectors.toList());
+        // System.out.println(empSortByFirstName);
+        
+        
+        List<Employee> empSortByAge =  employees.stream().sorted((a, b) -> a.getEmp_age() - b.getEmp_age()).collect(Collectors.toList());
+        System.out.println(empSortByAge);
+
+    }
+    
+}
